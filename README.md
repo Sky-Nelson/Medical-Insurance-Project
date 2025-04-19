@@ -39,10 +39,15 @@ What factors influence insurance charges? How do they influence charges? And can
 ## Key Findings
 
 - Smoking habit has the biggest effect on insurance charges.
-- Age and BMI also contribute to insurance charges
+- Age and BMI also contribute to insurance charges and interact with smoking habit.
 - Region, number of children, and sex all show minimal impact.
-- Using a multiple regression model with age, BMI, and smoking status we explain ~75% of the variance in insurance charges.
+- Using a multiple regression model with age, BMI, and smoking status we explain ~86% of the variance in insurance charges.
 
+![Multiple regression model using smoking habit, sex, and BMI classification](images/smoker_age_obese_linear_regression.png)
+
+![Boxplot of unsurance charges and smoking habit](images/charges_smoker_boxplot.png)
+
+![Linear regression model showing actual vs predicted insurance costs](images/predicted_vs_actual_charges.png)
 ## How to run this code
 
 1) Clone this repo
